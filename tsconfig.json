@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "skipLibCheck": true,
+        "outDir": "build",
+        "target": "esnext",
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "lib": ["es7"],
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "*": ["node_modules/*"]
+        }
+    },
+    "include": ["*.ts"]
+}
